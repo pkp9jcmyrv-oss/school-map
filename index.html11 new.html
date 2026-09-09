@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>高津高校校内マップ</title>
+    <meta charset="UTF-8">
+</head>
+<body><h1>校内マップ　現在地：1階トイレ横階段</h1>
+</body>
+</html>
+<img src="1stfloor 3.png" width="65%" height="65%">
+
+
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .image-box img {
+            position: relative;
+            width:"65%";
+            height:"65%";
+            border: 1px solid #000000
+        }
+        
+        .image-box img {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:auto;
+        }
+
+        .image-box img.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="si('21')"></button>
+    <button onclick="si('22')"></button>
+
+    <div class="image-box">
+        <img id="21Img" src="x:\work\2ndfloor 1.png">
+        <img id="22Img" src="x:\work\2ndfloor 2.png"> 
+    </div>
+
+    <script>
+        function si(map) {
+            const map21 = document.getElementById('21img');
+            const map22 = document.getElementById('22img');
+
+            if (map == '21') {
+            map21.classList.add('show');
+            map22.classList.remove('show');
+            } else if (map == '22') {
+                map22.classList.add('show');
+                map21.classList.remove('show');
+            }
+        }
+    </script>
+
+</body>
+</html>
