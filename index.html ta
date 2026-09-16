@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>高津高校校内マップ</title>
+    <meta charset="UTF-8">
+</head>
+<body><h1>校内マップ　現在地：体育館</h1>
+</body>
+</html>
+<h1>image</h1>
+<img src="1stfloor taiikukan.png" width="65%" height="65%">
