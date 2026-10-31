@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>高津高校校内マップ</title>
+    <meta charset="UTF-8">
+</head>
+<body><h1>校内マップ　現在地：1階トイレ横階段</h1>
+</body>
+</html>
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .image-box img {
+            display: none;
+            width:"100%";
+            height:"100%";
+        }
+    
+         .image-box img.show {
+            display: block;
+        }
+    </style>
+</head>
